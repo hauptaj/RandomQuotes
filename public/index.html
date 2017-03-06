@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myMod">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Outlander Phrases and Words</title>
+</head>
+
+<body>
+    <a href="#/phrases">Generate Random Phrase</a>
+    <a href='#/words'>Generate Random Word</a>
+    <a href="#/myinfo">View My information</a>
+    <a href="#/thingstobuy">Things to Buy</a>
+    <ng-view></ng-view>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js"></script>
+    <script src="module.js"></script>
+    <script src="config.js"></script>
+    <script src="controller.js"></script>
+
+</body>
+
+</html>
